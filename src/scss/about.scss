@@ -1,0 +1,53 @@
+@import "partials/params";
+@import "partials/mixins";  
+
+.about {
+	background-color: #fff;
+	padding: 40px;
+
+	&__content {
+		display: flex;
+		padding-top: 20px;
+	}
+
+	&__text {
+		width: 50%;
+		opacity: .7;
+		font-size: 13px;
+		border-right: 3px dotted $buy-border-color;
+
+	}
+
+	&__title {
+
+	}
+
+	&__imgs {
+		
+	}
+
+	&__profile {
+
+		& .profile__name {
+
+		}
+
+		& .profile__img {
+
+		}
+
+		& .profile__job {
+
+		}
+
+		& .profile_soc {
+
+		}
+
+		& .profile__icon {
+			
+		}
+
+	}
+
+}

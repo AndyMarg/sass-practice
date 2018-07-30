@@ -2,17 +2,21 @@
 @import "partials/mixins";
 
 .auth {
+	flex: 0 0 $auth-height;
+
 	display: flex;
 	flex-direction: row;
-	flex: 0 0 $auth-height;
 	align-items: center;
 	justify-content: space-around;
+	width: 100%;
 
 	&__link {
-		
+		display: block;
+		text-align: center;
 		text-transform: uppercase;
 		color: #fff;;
 		font-weight: bold;
+		width: 50%;
 	}
 
 }
