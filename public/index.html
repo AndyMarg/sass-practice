@@ -302,42 +302,42 @@
                 </div>
             </section>
             <section class="slider">
-                <div class="slider__slide">
+                <div class="slider__slide" data-slide="1">
                     <div class="slider__quote">
                         1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A odio rem sint, incidunt possimus, culpa.
                     </div>
                     <div class="slider__info">
                         <div class="slider__name">John Doe-1</div>
                         <div class="slider__icons">
-                            <span class="slider__icon slider__icon--active"></span>
-                            <span class="slider__icon"></span>
-                            <span class="slider__icon"></span>
+                            <span class="slider__icon slider__icon--active" data-id="1"></span>
+                            <span class="slider__icon" data-id="2"></span>
+                            <span class="slider__icon" data-id="3"></span>
                         </div>
                     </div>
                 </div>
-                <div class="slider__slide hide">
+                <div class="slider__slide hide" data-slide="2">
                     <div class="slider__quote">
                         2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A odio rem sint, incidunt possimus, culpa.
                     </div>
                     <div class="slider__info">
                         <div class="slider__name">John Doe-2</div>
                         <div class="slider__icons">
-                            <span class="slider__icon"></span>
-                            <span class="slider__icon slider__icon--active"></span>
-                            <span class="slider__icon"></span>
+                            <span class="slider__icon" data-id="1"></span>
+                            <span class="slider__icon slider__icon--active" data-id="2"></span>
+                            <span class="slider__icon" data-id="3"></span>
                         </div>
                     </div>
                 </div>
-                <div class="slider__slide hide">
+                <div class="slider__slide hide" data-slide="3">
                     <div class="slider__quote">
                         3. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A odio rem sint, incidunt possimus, culpa.
                     </div>
                     <div class="slider__info">
                         <div class="slider__name">John Doe-3</div>
                         <div class="slider__icons">
-                            <span class="slider__icon"></span>
-                            <span class="slider__icon"></span>
-                            <span class="slider__icon slider__icon--active"></span>
+                            <span class="slider__icon" data-id="1"></span>
+                            <span class="slider__icon" data-id="2"></span>
+                            <span class="slider__icon slider__icon--active" data-id="3"></span>
                         </div>
                     </div>
                 </div>
@@ -395,6 +395,7 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="footer__content view-port">
                     <div class="footer__block footer__text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id animi reiciendis voluptas, omnis, magnam, porro numquam minima earum aspernatur pariatur non blanditiis. Aliquam architecto, enim harum accusamus nulla nihil consectetur consequatur reiciendis! Veniam                     </div>
@@ -453,5 +454,7 @@
                 </div>
             </footer>
         </div>
+
+        <script src="slider.js"></script>
     </body>
 </html>

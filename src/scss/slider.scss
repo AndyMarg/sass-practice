@@ -11,7 +11,7 @@
 	&__slide {
 		@include flex-center;
 		opacity: 1;
-		transition: .5s opacity;
+		transition: 1s opacity;
 	}
 
 	&__quote {
