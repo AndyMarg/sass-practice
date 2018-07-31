@@ -1,7 +1,9 @@
 @import "partials/params";
 @import "partials/mixins";  
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import "../../node_modules/font-awesome/scss/font-awesome";
+// @import "../../node_modules/font-awesome/scss/font-awesome";
+
+@import "../../node_modules/font-awesome/scss/font-awesome"; 
 
 html, body {
     @include clear;
@@ -19,7 +21,7 @@ a {
 
 .view-port {
     max-width: $view-port;
-    margin: 0 auto;
+    // margin: 0 auto;
 }
 
 .wrapper {
